@@ -36,4 +36,3 @@ A live static website hosted on AWS with CloudFront and HTTPS is included in the
 
 ## Author
 Basanth Kumar B M  
-Aspiring Cloud Support Engineer
