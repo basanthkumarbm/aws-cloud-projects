@@ -2,8 +2,6 @@
 Industry-level AWS cloud projects demonstrating hands-on experience with S3, CloudFront, Lambda, API Gateway, and CloudWatch, focused on real-world cloud support and infrastructure scenarios.
 
 
-# AWS Cloud Projects
-
 ## Overview
 This repository contains hands-on AWS cloud projects designed to demonstrate real-world cloud infrastructure, serverless computing, content delivery, and monitoring practices. These projects reflect practical skills required for entry-level Cloud Support and Cloud Engineer roles.
 
