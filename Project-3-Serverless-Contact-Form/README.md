@@ -42,4 +42,4 @@ flowchart TD
 ![Lambda Function Code](screenshots/lambda-function-code.png)
 
 ### API Gateway Test Response
-![API Gateway Test Response](screenshots/api-gateway-test-response.png)
+![API Gateway Test Response](screenshots/api-gateway-working-response.png)
