@@ -23,6 +23,15 @@ User Browser → Amazon S3 (Static Website Hosting)
 - Successfully hosted a static website
 - Achi
 
+# Static Website Hosting using Amazon S3
+
+## Architecture Diagram
+```mermaid
+flowchart TD
+    User[User Browser] -->|HTTP Request| S3[Amazon S3<br/>Static Website Hosting]
+    S3 -->|index.html| User
+```
+
 ## Live Website Screenshot
 
 The static website hosted on Amazon S3 is accessible via the S3 website endpoint.
