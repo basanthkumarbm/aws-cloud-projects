@@ -41,5 +41,5 @@ flowchart TD
 ### AWS Lambda Function
 ![Lambda Function Code](screenshots/lambda-function-code.png)
 
-### API Gateway Test Response
-![API Gateway Test Response](screenshots/api-gateway-working-response.png)
+### API Gateway Working Response
+![API Gateway Working Response](screenshots/api-gateway-working-response.png)
