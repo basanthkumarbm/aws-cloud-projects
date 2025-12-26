@@ -21,7 +21,6 @@ User Browser → Amazon S3 (Static Website Hosting)
 
 ## Outcome
 - Successfully hosted a static website
-- Achi
 
 # Static Website Hosting using Amazon S3
 
