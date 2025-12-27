@@ -15,17 +15,6 @@ Website Form → API Gateway → AWS Lambda
 - AWS IAM
 - Amazon CloudWatch
 
-## Deployment Steps
-1. Created a Lambda function using Python
-2. Configured API Gateway HTTP API
-3. Integrated Lambda with API Gateway
-4. Enabled CORS for browser access
-
-## Outcome
-- Serverless backend deployed successfully
-- No server management required
-- Scalable and cost-efficient architecture
-
 ## Architecture Diagram
 
 ```mermaid
@@ -36,6 +25,12 @@ flowchart TD
     APIGW -->|HTTP Response| User
 ```
 
+## Deployment Steps
+1. Created a Lambda function using Python
+2. Configured API Gateway HTTP API
+3. Integrated Lambda with API Gateway
+4. Enabled CORS for browser access
+
 ## Screenshots
 
 ### AWS Lambda Function
@@ -43,3 +38,8 @@ flowchart TD
 
 ### API Gateway Working Response
 ![API Gateway Working Response](screenshots/api-gateway-working-response.png)
+
+## Outcome
+- Serverless backend deployed successfully
+- No server management required
+- Scalable and cost-efficient architecture
