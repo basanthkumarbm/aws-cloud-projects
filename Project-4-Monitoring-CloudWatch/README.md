@@ -14,17 +14,6 @@ AWS Lambda → CloudWatch Logs → CloudWatch Alarms → SNS Notification
 - AWS Lambda
 - Amazon SNS
 
-## Deployment Steps
-1. Viewed Lambda execution logs in CloudWatch
-2. Configured error metrics
-3. Created CloudWatch alarms
-4. Set up SNS email notifications
-
-## Outcome
-- Real-time monitoring enabled
-- Error detection and alerting implemented
-- Production-grade observability added to serverless application
-
 ## Architecture Diagram
 
 ```mermaid
@@ -39,6 +28,12 @@ flowchart TD
     Alarm -->|Alert| SNS
 ```
 
+## Deployment Steps
+1. Viewed Lambda execution logs in CloudWatch
+2. Configured error metrics
+3. Created CloudWatch alarms
+4. Set up SNS email notifications
+
 ## Screenshots
 
 ### Lambda Execution Logs
@@ -46,3 +41,8 @@ flowchart TD
 
 ### CloudWatch Alarm
 ![CloudWatch Alarm](screenshots/cloudwatch-alarm.png)
+
+## Outcome
+- Real-time monitoring enabled
+- Error detection and alerting implemented
+- Production-grade observability added to serverless application
