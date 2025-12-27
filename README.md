@@ -44,7 +44,7 @@ To build production-ready cloud projects aligned with industry expectations and 
 
 ## 🔗 Live Demos
 
-The following projects include live, working deployments hosted on AWS.  
+The projects include live, working deployments hosted on AWS.  
 
 Note: Live demos may be temporarily disabled to avoid unnecessary AWS costs.
 
