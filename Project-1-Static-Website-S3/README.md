@@ -32,8 +32,8 @@ The static website hosted on Amazon S3 is accessible via the S3 website endpoint
 
 ![S3 Static Website Live](screenshots/s3-static-website-live.png)
 
-eved serverless, highly available hosting
-- Gained hands-on experience with S3 permissions and policies
-
 ## Outcome
 - Successfully hosted a static website
+
+eved serverless, highly available hosting
+- Gained hands-on experience with S3 permissions and policies
