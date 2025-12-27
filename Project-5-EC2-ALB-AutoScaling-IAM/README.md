@@ -21,7 +21,6 @@ A highly available architecture was implemented using Amazon EC2 instances behin
 - Auto Scaling Group (ASG)
 - AWS IAM
 - Amazon VPC
-- Amazon CloudWatch
 
 ---
 
@@ -34,6 +33,25 @@ A highly available architecture was implemented using Amazon EC2 instances behin
 6. Verified high availability by accessing the application through the ALB DNS name
 
 ---
+
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+    User[User / Browser]
+    ALB[Application Load Balancer]
+    ASG[Auto Scaling Group]
+    EC2A[EC2 Instance]
+    EC2B[EC2 Instance]
+    IAM[IAM Role]
+
+    User -->|HTTP Request| ALB
+    ALB --> ASG
+    ASG --> EC2A
+    ASG --> EC2B
+    IAM --> EC2A
+    IAM --> EC2B
+```
 
 ## Screenshots
 
