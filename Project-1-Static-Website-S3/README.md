@@ -13,24 +13,18 @@ User Browser → Amazon S3 (Static Website Hosting)
 - Amazon S3
 - AWS IAM
 
-## Deployment Steps
-1. Created an S3 bucket
-2. Enabled static website hosting
-3. Uploaded HTML files
-4. Configured bucket policy for public access
-
-## Outcome
-- Successfully hosted a static website
-
-
-# Static Website Hosting using Amazon S3
-
 ## Architecture Diagram
 ```mermaid
 flowchart TD
     User[User Browser] -->|HTTP Request| S3[Amazon S3<br/>Static Website Hosting]
     S3 -->|index.html| User
 ```
+
+## Deployment Steps
+1. Created an S3 bucket
+2. Enabled static website hosting
+3. Uploaded HTML files
+4. Configured bucket policy for public access
 
 ## Live Website Screenshot
 
@@ -40,3 +34,6 @@ The static website hosted on Amazon S3 is accessible via the S3 website endpoint
 
 eved serverless, highly available hosting
 - Gained hands-on experience with S3 permissions and policies
+
+## Outcome
+- Successfully hosted a static website
