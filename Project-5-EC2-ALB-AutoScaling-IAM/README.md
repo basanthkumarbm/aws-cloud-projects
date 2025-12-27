@@ -24,16 +24,6 @@ A highly available architecture was implemented using Amazon EC2 instances behin
 
 ---
 
-## Implementation Steps
-1. Created an IAM role for EC2 to enable secure access without using access keys
-2. Launched Amazon EC2 instances with Apache web server installed
-3. Configured a Target Group with health checks to monitor instance availability
-4. Created an Application Load Balancer to distribute traffic across instances
-5. Configured an Auto Scaling Group to maintain desired instance capacity
-6. Verified high availability by accessing the application through the ALB DNS name
-
----
-
 ## Architecture Diagram
 
 ```mermaid
@@ -52,6 +42,16 @@ flowchart TD
     IAM --> EC2A
     IAM --> EC2B
 ```
+
+## Implementation Steps
+1. Created an IAM role for EC2 to enable secure access without using access keys
+2. Launched Amazon EC2 instances with Apache web server installed
+3. Configured a Target Group with health checks to monitor instance availability
+4. Created an Application Load Balancer to distribute traffic across instances
+5. Configured an Auto Scaling Group to maintain desired instance capacity
+6. Verified high availability by accessing the application through the ALB DNS name
+
+---
 
 ## Screenshots
 
