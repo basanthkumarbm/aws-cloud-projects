@@ -14,17 +14,6 @@ User Browser → CloudFront (HTTPS) → Amazon S3
 - Amazon S3
 - AWS IAM
 
-## Deployment Steps
-1. Created a CloudFront distribution
-2. Configured S3 website endpoint as origin
-3. Enabled HTTPS using CloudFront
-4. Set default root object for proper routing
-
-## Outcome
-- Improved website performance
-- Secured website with HTTPS
-- Implemented CDN-based architecture used in production environments
-
 ## Architecture Diagram
 
 ```mermaid
@@ -34,6 +23,12 @@ flowchart TD
     S3 -->|index.html| CF
     CF -->|HTTPS Response| User
 ```
+
+## Deployment Steps
+1. Created a CloudFront distribution
+2. Configured S3 website endpoint as origin
+3. Enabled HTTPS using CloudFront
+4. Set default root object for proper routing
 
 ## Live Website Screenshot
 
@@ -46,3 +41,8 @@ The static website is securely delivered using Amazon CloudFront with HTTPS enab
 The CloudFront distribution is successfully deployed and serving content from the S3 origin.
 
 ![CloudFront Distribution](screenshots/cloudfront-distribution-details.png)
+
+## Outcome
+- Improved website performance
+- Secured website with HTTPS
+- Implemented CDN-based architecture used in production environments
